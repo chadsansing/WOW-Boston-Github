@@ -7,9 +7,9 @@ function sandwichMaker (myBread, myCheese, myProtein, myDressing, myVeg, myFate,
   this.myVeg = veggies[Math.round(Math.random()*(veggies.length-1))];
   this.myFate = fates[Math.round(Math.random()*(fates.length-1))];
   
-  var myScore = (this.myBread.score + this.myCheese.score + this.myDressing.score + this.myProtein.score + this.myVeg.score) - (this.myBread.soggy + this.myCheese.soggy + this.myDressing.soggy + this.myProtein.soggy + this.myVeg.soggy);
+  // var myScore = (this.myBread.score + this.myCheese.score + this.myDressing.score + this.myProtein.score + this.myVeg.score) - (this.myBread.soggy + this.myCheese.soggy + this.myDressing.soggy + this.myProtein.soggy + this.myVeg.soggy);
   
-  this.myScore = myScore;
+  // this.myScore = myScore;
   
   this.myDistance = distances[Math.round(Math.random()*(distances.length-1))] + this.myScore;
 
